@@ -8,7 +8,7 @@ This new assignment consists of three technical analysis deliverables and a prop
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
     To determine which variables provide a significant contribution to the linear model, we must look at the individual variable p-values. See in the image below the results of the statistical metrics on the multiple linear regression model.
 
-    ![Statistical_Summary](../MechaCar_Statistical_Analysis/Images/Multipe_Linear_Reg.png)
+    ![Statistical_Summary](/Images/Multipe_Linear_Reg.png)
 
     In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results, vehicle_length and ground_clearance (as well as intercept) are statistically unlikely to provide random maounts of variance to the linear model. This means that vehicle_length and ground_clearance have a significant impact on the mpg.
 
