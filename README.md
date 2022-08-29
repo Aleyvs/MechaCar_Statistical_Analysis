@@ -41,20 +41,37 @@ The first T-Test we ran was to determine if the PSI across all manufacturing lot
 
 ![all_lots_ttest](/Images/all_lots.png)
 
-# Lot 1
+### Lot 1
 
 The T-Test for Lot 1 shows almost a perfect 1 in p-value. This means that the data is perfectly described by the restricted model. With this informatio we can say that there is no statistical difference between the observed sample mean and the population mean of 1500 pounds per square inch.
 
 ![Lot1](/Images/Lot1.png)
 
-# Lot 2
+### Lot 2
 
 The T-Test for Lot 2 shows a p-value of 0.61, taking into account the significance level as 0.05%, our p-value is higher so we do not have sufficient evidence to reject the null hypothesis, and both menas are statistically similar.
 
 ![lot2](/Images/Lot2.png)
 
-# Lot 3
+### Lot 3
 
 The T-Test for Lot 3 shows a p-value of 0.04, again taking into account the significance level as 0.05%, our p-value for this test is lower, this means the null hypothesis is rejected and the means are not statistically similar.
 
 ![lot3](/Images/Lot3.png)
+
+## Study Design: MechaCar vs Competition
+
+When buying a new car, thinking critically the user should always want a car that will provide the most benefits for the cost. On this study we are comparing the amount of mpg a car can get depending on the vehicle weight.
+
+Using a one way ANOVA test we can go to our mechaCar data set. For this statistical test, we'll answer the question, " is there any difference in the mpg of a vehicle based on its weight?"
+
+The Hypotheis for this test are always the following:
+
+Null-Hypothesis : The means of all groups are equal, or µ1 = µ2 = … = µn.
+NonNull Hypotheis : At least one of the means is different from all other groups.
+
+Going to the data set, we will use the "mpg" as our dependent, measured variable and "vehicle_weight" will be our independent, categorical variable.
+
+![ANOVA](/Imshrd/ANOVA.png)
+
+Looking at the image above we can see that our p-value in this test is higher that our assumed 0.05% significance level. Therefore, we would stat that there is not sufficient evidence to reject the null hypothesis and accept that there is not a significant difference in mpg depending on the vehicle_weight and other variables.
