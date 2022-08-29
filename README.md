@@ -74,4 +74,4 @@ Going to the data set, we will use the "mpg" as our dependent, measured variable
 
 ![ANOVA](/Images/ANOVA.png)
 
-Looking at the image above we can see that our p-value in this test is higher that our assumed 0.05% significance level. Therefore, we would stat that there is not sufficient evidence to reject the null hypothesis and accept that there is not a significant difference in mpg depending on the vehicle_weight and other variables.
+Looking at the image above we can see that our p-value in this test is higher that our assumed 0.05% significance level. Therefore, we would stat that there is not sufficient evidence to reject the null hypothesis and accept that there is not a significant difference in mpg depending on the vehicle_weight.
