@@ -33,3 +33,28 @@ Looking at all the information without division by lots, the manufacturing data 
 But according to the table showing the grouped statistics by lot, lots 1 and 2 are both well within design specifications. On the other hand lot 3 shows the most variance and exceeds the manufacturers specs.
 
 ![Grouped_Summary](/Images/Grouped_Summary.png)
+
+
+## T-Tests on Suspension Coils
+
+The first T-Test we ran was to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. Assuming our significance level was the common 0.05%, our p-value is barely above the significance level (0.06). Therefore, we can say that there is barely enough statistical difference between all manufacturing lots and the piopulation mean. I would recommend looking at the individual lots to see a more specific T-Test.
+
+![all_lots_ttest](/Images/all_lots.png)
+
+# Lot 1
+
+The T-Test for Lot 1 shows almost a perfect 1 in p-value. This means that the data is perfectly described by the restricted model. With this informatio we can say that there is no statistical difference between the observed sample mean and the population mean of 1500 pounds per square inch.
+
+![Lot1](/Images/Lot1.png)
+
+# Lot 2
+
+The T-Test for Lot 2 shows a p-value of 0.61, taking into account the significance level as 0.05%, our p-value is higher so we do not have sufficient evidence to reject the null hypothesis, and both menas are statistically similar.
+
+![lot2](/Images/Lot2.png)
+
+# Lot 3
+
+The T-Test for Lot 3 shows a p-value of 0.04, again taking into account the significance level as 0.05%, our p-value for this test is lower, this means the null hypothesis is rejected and the means are not statistically similar.
+
+![lot3](/Images/Lot3.png)
