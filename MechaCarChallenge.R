@@ -44,3 +44,8 @@ t.test(subset(suspension_Coil,Manufacturing_Lot=="Lot1")$PSI,mu = 1500)
 t.test(subset(suspension_Coil,Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
 # t-test on Lot 3
 t.test(subset(suspension_Coil,Manufacturing_Lot=="Lot3")$PSI,mu = 1500)
+
+##Deliverable 4
+
+aov(mpg ~ vehicle_weight,data=mechaCar_data)
+summary(aov(mpg ~ vehicle_weight,data=mechaCar_data))
